@@ -119,7 +119,6 @@ class FechaHora:
             print('El valor para hora es inválido.')
         #Actualiza Hora
         if (self.__Minuto >= 60):
-#            respaldo = self.__Minuto
             self.__Hora += self.__Minuto // 60
             self.__Minuto = self.__Minuto - ((self.__Minuto//60)* 60)
         #Actualiza Dia

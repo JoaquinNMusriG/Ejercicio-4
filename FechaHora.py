@@ -135,7 +135,7 @@ class FechaHora:
                 self.__Mes += self.__Dia // 31
                 self.__Dia = self.__Dia - ((self.__Dia // 31)* 31)
         else:
-            if ((self.__Anio%4 == 0) & (self.__Anio%100 != 0)) or (self.__Anio%400 == 0): #Mes Bisiesto
+            if ((self.__Anio%4 == 0) & (self.__Anio%100 != 0)) or (self.__Anio%400 == 0): #Mes de febrero en año Bisiesto
                 if (self.__Dia > 29):
                     self.__Mes += self.__Dia // 29
                     self.__Dia = self.__Dia - ((self.__Dia // 29)* 29)
